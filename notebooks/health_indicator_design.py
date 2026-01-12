@@ -34,6 +34,10 @@ def rolling_slope(x):
         return 0
     return np.polyfit(range(len(x)),x,1)[0]
 
+
+
+
+
 for s in important_sensors:
     train[f"{s}_slope"]=train.groupby('id')[s].transform(
         lambda x:x.rolling(10,min_periods = 2).apply(rolling_slope,raw=False)
