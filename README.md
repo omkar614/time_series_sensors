@@ -95,4 +95,59 @@ These plots validate both **model correctness** and **interpretability**.
 ---
 
 ## 🛠 Project Structure
+aviation/
+│
+├── dataset/
+│ ├── PM_train.txt
+│ ├── PM_test.txt
+│ └── PM_truth.txt
+│
+├── notebooks/
+│ ├── 01_Early_Analysis.ipynb
+│ ├── 02_eda_sensor_behavior.ipynb
+│ ├── 03_health_indicator_design.ipynb
+│ └── 04_baseline_models.ipynb
+│
+├── src/
+│ └── health_indicator_design.py
+│
+├── README.md
+└── .gitignore
+
+
+
+---
+
+## 🔍 Key Takeaways
+
+- Sensor degradation is **progressive and non-stationary**
+- Rolling and trend-based features capture health effectively
+- Simple baseline models can deliver **reliable early warnings**
+- Interpretability is crucial for maintenance decision-making
+
+---
+
+## 🚀 Future Improvements
+
+- Tree-based models (Random Forest, XGBoost)
+- Survival analysis for probabilistic RUL
+- Engine-level alert lead-time evaluation
+- Lightweight monitoring dashboard (Power BI / Streamlit)
+
+---
+
+## 👤 Author
+
+**Omkar**  
+Electronics & Telecommunication Engineering  
+Aspiring Data Analyst / Data Scientist  
+
+📌 GitHub: https://github.com/omkar614
+
+---
+
+## 📄 License
+
+This project is for **educational and portfolio purposes**.  
+Dataset usage follows public benchmark conventions.
 
