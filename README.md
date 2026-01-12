@@ -115,3 +115,40 @@ aviation/
 ├── README.md
 └── .gitignore 
 ```
+
+
+---
+
+## Key Takeaways
+
+- Engine degradation is **progressive and non-stationary**
+- Rolling and trend-based features capture health effectively
+- Simple baseline models can provide **reliable early warnings**
+- Interpretability is crucial for maintenance decision-making
+
+---
+
+## Future Work
+
+- Tree-based models (Random Forest, XGBoost)
+- Survival analysis for probabilistic RUL estimation
+- Engine-level alert lead-time evaluation
+- Lightweight monitoring dashboard (Power BI / Streamlit)
+
+---
+
+## Author
+
+**Omkar**  
+Electronics & Telecommunication Engineering  
+Aspiring Data Analyst / Data Scientist  
+
+GitHub: https://github.com/omkar614
+
+---
+
+## License
+
+This project is intended for **educational and portfolio purposes**.  
+The dataset follows public benchmark usage conventions.
+
